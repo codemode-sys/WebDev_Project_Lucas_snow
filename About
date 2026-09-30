@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About/lucas_snow.com</title>
+</head>
+<body>
+
+<h1>About</h1>
+<p>Lucas snow is a pioneering climbing enthusiast
+    with experince in summiting and snow boarding, In 2010
+    he launched this business to make entry towards a fantastic
+    but often expensive experience more fun and enjoyable.
+</p>
+<h2> Business edge</h2>
+<p>Our business strategy comes from our group travel intiative that makes
+    combined travel cheap for everyone</p>
+<button type="/history">Learn more about our business history</button>
+<img src ="https://unsplash.com/photos/photography-of-snow-covered-mountain-at-daytime-0vw4InAC-yM" alt="snow filled tops">
+</body>
+</body>
+</html>

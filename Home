@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lucas_snow.com</title>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="/About">About</a>
+  <a href="/Contact">Contact</a>
+  <a href="Dates">Dates</a>
+</div>
+
+<h1>Lucas snow</h1>
+<p>Welcome to lucas_snow.com, awiting you is the best winter holiday experience ever.</p>
+<a href="https://github.com/codemode-sys/WebDev_Project_Lucas_snow">More About our work</a>
+<button type="button">Book now</button>
+<button type="button">Click Me!</button>
+<img src="https://unsplash.com/photos/mountains-covered-with-snow-d3pTF3r_hwY" alt="snowy landsacpe">
+</body>
+</html>
