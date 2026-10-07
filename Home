@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="D:\Users\a00055100\Downloads\WebDev_Project_Lucas_snow\style.css">
+<style> 
+
+</style>
 <title>Lucas_snow.com</title>
 </head>
 <body>
@@ -16,6 +20,6 @@
 <a href="https://github.com/codemode-sys/WebDev_Project_Lucas_snow">More About our work</a>
 <button type="button">Book now</button>
 <button type="button">Click Me!</button>
-<img src="https://unsplash.com/photos/mountains-covered-with-snow-d3pTF3r_hwY" alt="snowy landsacpe">
+<img src="D:\Users\a00055100\Downloads\WebDev_Project_Lucas_snow\background.jpg" alt="snowy landsacpe" width="500" height="600">
 </body>
 </html>
