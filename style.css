@@ -7,3 +7,15 @@ pre { font-family: "Arial Black", "Arial Bold", Gadget, sans-serif; font-size: 1
 body {
   background-image: url('background.jpg');
 }
+#description {
+width: 200px;
+height: 300px;
+background-color: grey;
+}
+.Headings{
+  background-color: aqua;
+  border: black;
+  border-style: dashed;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+}
