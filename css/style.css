@@ -1,0 +1,403 @@
+
+
+/* =========================================
+   1. GOOGLE FONTS
+========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+
+/* =========================================
+   2. GLOBAL RESET & BASE STYLES
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #f5f7f8;
+    color: #182b3a;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   3. TYPOGRAPHY
+========================================= */
+
+h1,
+h2,
+h3,
+.brand {
+    font-family: 'Space Grotesk', Arial, sans-serif;
+    line-height: 1.15;
+}
+
+h1 {
+    font-size: clamp(2.6rem, 7vw, 5.5rem);
+    max-width: 900px;
+    margin: 18px 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.35rem;
+}
+
+
+/* =========================================
+   4. LINKS & ACCESSIBILITY
+========================================= */
+
+a {
+    color: #174e70;
+    text-underline-offset: 4px;
+}
+
+a:focus-visible {
+    outline: 3px solid #b34812;
+    outline-offset: 5px;
+}
+
+.skip {
+    position: absolute;
+    left: 12px;
+    top: -100px;
+    background: #fff;
+    padding: 12px;
+    z-index: 5;
+}
+
+.skip:focus {
+    top: 12px;
+}
+
+
+/* =========================================
+   5. LAYOUT & CONTAINERS
+========================================= */
+
+.wrap {
+    max-width: 1120px;
+    margin: auto;
+    padding: 0 24px;
+}
+
+.section {
+    padding: 65px 0;
+}
+
+.intro {
+    max-width: 720px;
+}
+
+
+/* =========================================
+   6. SITE HEADER & NAVIGATION
+========================================= */
+
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #d9e2e7;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    min-height: 88px;
+    flex-wrap: wrap;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.brand {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #182b3a;
+}
+
+.brand span {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: .68rem;
+    letter-spacing: .2em;
+    margin-top: 7px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a[aria-current] {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   7. HERO SECTION
+========================================= */
+
+.hero {
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(8, 25, 39, .93),
+            rgba(8, 25, 39, .28)
+        ),
+        url('../images/mountains.svg');
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 95px 0 110px;
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .18em;
+    font-weight: 700;
+}
+
+.hero p:not(.eyebrow) {
+    max-width: 560px;
+    font-size: 1.15rem;
+}
+
+
+/* =========================================
+   8. BUTTONS
+========================================= */
+
+.button {
+    display: inline-block;
+    background: #f4c080;
+    color: #182b3a;
+    padding: 13px 22px;
+    border: 2px solid #f4c080;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.button:hover {
+    background: #fff;
+    border-color: #fff;
+}
+
+
+/* =========================================
+   9. GRID & CARD COMPONENTS
+========================================= */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #d6e0e5;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 26px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.tag {
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: #39566b;
+    font-weight: 700;
+}
+
+.number {
+    height: 110px;
+    background: #dfebf0;
+    padding: 23px 26px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.8rem;
+    color: #284d63;
+}
+
+
+/* =========================================
+   10. STORIES & BLOCKQUOTES
+========================================= */
+
+.stories {
+    background: #e5eef2;
+}
+
+blockquote {
+    margin: 0;
+    border-left: 4px solid #315b70;
+    padding: 6px 0 6px 22px;
+    max-width: 760px;
+}
+
+blockquote p {
+    font-size: 1.2rem;
+}
+
+
+/* =========================================
+   11. PAGE TITLE
+========================================= */
+
+.page-title {
+    background: #dfebf0;
+    padding: 55px 0;
+}
+
+.page-title h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+}
+
+
+/* =========================================
+   12. ABOUT PAGE LAYOUT
+========================================= */
+
+.about-layout {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 50px;
+    align-items: start;
+}
+
+
+/* =========================================
+   13. PANELS & VALUES
+========================================= */
+
+.panel {
+    background: #182f43;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.panel a {
+    color: #f4c080;
+}
+
+.values li {
+    margin-bottom: 14px;
+}
+
+.note {
+    font-size: .9rem;
+    color: #465b6a;
+}
+
+
+/* =========================================
+   14. ACCORDIONS & DETAILS
+========================================= */
+
+details {
+    margin: 18px 0;
+    border: 1px solid #b8cbd6;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+/* =========================================
+   15. SITE FOOTER
+========================================= */
+
+.site-footer {
+    padding: 32px 0;
+    background: #122638;
+    color: #e4edf3;
+}
+
+.site-footer p {
+    margin: 5px 0;
+}
+
+.site-footer a {
+    color: #f4c080;
+}
+
+
+/* =========================================
+   16. RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 760px) {
+
+    .grid,
+    .about-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding: 65px 0;
+    }
+
+    .header-inner {
+        align-items: flex-start;
+    }
+
+    nav {
+        gap: 18px;
+    }
+
+    .section {
+        padding: 42px 0;
+    }
+}
+
+
+/* =========================================
+   17. REDUCED MOTION ACCESSIBILITY
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+}
+
