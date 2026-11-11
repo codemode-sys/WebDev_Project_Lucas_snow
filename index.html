@@ -1,25 +1,235 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<link rel="stylesheet" href="D:\Users\a00055100\Downloads\WebDev_Project_Lucas_snow\style.css">
-<style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</style>
-<title>Lucas_snow.com</title>
+    <meta
+        name="description"
+        content="Snow Trails: a student website concept for Lucas Snow’s winter travel agency."
+    >
+
+    <title>Winter adventures | Snow Trails</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="About.html">About</a>
-  <a href="/Contact">Contact</a>
-  <a href="Dates">Dates</a>
-</div>
 
-<h1 class="Headings">Lucas snow</h1>
-<p>Welcome to lucas_snow.com, awiting you is the best winter holiday experience ever.</p>
-<a href="https://github.com/codemode-sys/WebDev_Project_Lucas_snow">More About our work</a>
-<button type="button">Book now</button>
-<button type="button">Click Me!</button>
-<img src="mountain.png" alt="snowy landsacpe" width="500" height="600">
+<body>
+
+    <!-- Skip Navigation -->
+    <a class="skip" href="#main">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="wrap header-inner">
+
+            <a class="brand" href="index.html">
+                SNOW TRAILS
+                <span>TRAVEL AGENCY</span>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <a href="index.html" aria-current="page">Home</a>
+                <a href="about.html">About Lucas</a>
+                <a href="destinations.html">Destinations</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main">
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="wrap">
+
+                <p class="eyebrow">Winter starts here</p>
+
+                <h1>
+                    Less ordinary.<br>
+                    More adventure.
+                </h1>
+
+                <p>
+                    Fresh trails, mountain air and stories worth bringing
+                    home. Explore a winter travel concept inspired by
+                    Lucas Snow’s love of snowboarding.
+                </p>
+
+                <a class="button" href="destinations.html">
+                    Explore our destinations
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Destinations Section -->
+        <section class="section">
+            <div class="wrap">
+
+                <p class="eyebrow">Choose your next chapter</p>
+
+                <h2>Where will the snow take you?</h2>
+
+                <p class="intro">
+                    From an energetic mountain escape to a slower
+                    snowy getaway, start with the kind of adventure
+                    you want to have.
+                </p>
+
+                <!-- Destination Cards -->
+                <div class="grid">
+
+                    <!-- Destination 01 -->
+                    <article class="card">
+
+                        <div class="number" aria-hidden="true">
+                            01
+                        </div>
+
+                        <div class="card-content">
+
+                            <p class="tag">Austria</p>
+
+                            <h3>Alpine adventure</h3>
+
+                            <p>
+                                A concept trip built around snowy
+                                mountain views, time on the slopes
+                                and relaxed evenings.
+                            </p>
+
+                            <p>
+                                <strong>Trip theme:</strong>
+                                Snowboarding and skiing
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Destination 02 -->
+                    <article class="card">
+
+                        <div class="number" aria-hidden="true">
+                            02
+                        </div>
+
+                        <div class="card-content">
+
+                            <p class="tag">France</p>
+
+                            <h3>Find your next trail</h3>
+
+                            <p>
+                                A winter escape concept for travellers
+                                who want to combine slope time with
+                                exploring a mountain village.
+                            </p>
+
+                            <p>
+                                <strong>Trip theme:</strong>
+                                Winter sports and exploring
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Destination 03 -->
+                    <article class="card">
+
+                        <div class="number" aria-hidden="true">
+                            03
+                        </div>
+
+                        <div class="card-content">
+
+                            <p class="tag">Finland</p>
+
+                            <h3>A different kind of winter</h3>
+
+                            <p>
+                                A quieter winter holiday concept with
+                                snowy scenery and space to slow down
+                                between adventures.
+                            </p>
+
+                            <p>
+                                <strong>Trip theme:</strong>
+                                Snowy landscapes and relaxed adventures
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Trail Stories Section -->
+        <section class="section stories">
+            <div class="wrap">
+
+                <p class="eyebrow">Trail stories</p>
+
+                <h2>Big mountains. Small moments.</h2>
+
+                <!-- Sample Traveller Story -->
+                <blockquote>
+
+                    <p>
+                        “My favourite part wasn’t getting every
+                        turn right. It was finally finding the
+                        confidence to try again.”
+                    </p>
+
+                    <footer>
+                        — Alex, fictional traveller in this sample story
+                    </footer>
+
+                </blockquote>
+
+                <p class="note">
+                    Illustrative content for the website prototype,
+                    not a real customer review.
+                </p>
+
+                <a href="about.html">
+                    Read the story behind Snow Trails
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="wrap">
+
+            <p>
+                Snow Trails Travel Agency ·
+                Chase the snow. Find your story.
+            </p>
+
+            <p>
+                <a href="about.html">Meet Lucas</a> ·
+                <a href="destinations.html">Explore destinations</a>
+            </p>
+
+            <p class="footer-note">
+                Student project. Fictional agency, illustrative trips
+                and sample stories. No bookings or payments are accepted.
+            </p>
+
+        </div>
+    </footer>
+
 </body>
 </html>
+```
